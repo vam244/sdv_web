@@ -19,7 +19,7 @@
       }
     }
   
-    /**
+    /** 
      * Easy event listener function
      */
     const on = (type, el, listener, all = false) => {
@@ -167,7 +167,7 @@
     /**
      * Initiate  glightbox 
      */
-    const glightbox = gLightbox({
+    const glightbox = glightbox({
       selector: '.glightbox'
     });
   
